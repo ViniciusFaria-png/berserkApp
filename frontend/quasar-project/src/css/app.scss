@@ -1,1 +1,19 @@
 // app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+
+html, body{
+  margin: 0;
+  height: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+.content__above{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
